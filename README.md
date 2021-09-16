@@ -1,6 +1,8 @@
 # TagLib
 
 [![Build Status](https://travis-ci.org/taglib/taglib.svg?branch=master)](https://travis-ci.org/taglib/taglib)
+## TagLib Fork
+This fork merely adds an SConstruct file to make building for android, web, ios and etc. possible.
 
 ### TagLib Audio Metadata Library
 
