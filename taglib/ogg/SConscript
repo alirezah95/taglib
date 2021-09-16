@@ -1,0 +1,7 @@
+Import('env')
+
+env['sources'] += Glob('*.cpp')
+env['sources'] += Glob('flac/*.cpp')
+env['sources'] += Glob('opus/*.cpp')
+env['sources'] += Glob('speex/*.cpp')
+env['sources'] += Glob('vorbis/*.cpp')

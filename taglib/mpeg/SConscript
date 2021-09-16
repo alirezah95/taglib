@@ -1,0 +1,6 @@
+Import('env')
+
+env['sources'] += Glob('*.cpp')
+env['sources'] += Glob('id3v1/*.cpp')
+env['sources'] += Glob('id3v2/*.cpp')
+env['sources'] += Glob('id3v2/frames/*.cpp')

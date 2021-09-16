@@ -1,0 +1,5 @@
+Import('env')
+
+env['sources'] += Glob('*.cpp')
+env['sources'] += Glob('aiff/*.cpp')
+env['sources'] += Glob('wav/*.cpp')
